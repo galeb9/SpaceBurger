@@ -1,6 +1,8 @@
 @import "menu.css";
 @import "logo.css";
 @import "hero.css";
+@import "scroolbar.css";
+
 :root{
     --shadow: #8917a0;
 }
