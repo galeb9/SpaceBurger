@@ -1,3 +1,45 @@
 @import "menu.css";
-@import "logo.css"
+@import "logo.css";
+@import "hero.css";
 
+main{
+    background-image: linear-gradient(to right top, #34225c, #423976, #515190, #606aaa, #7084c4, #758fd1, #7a9add, #7fa5ea, #7aa2ec, #75a0ee, #709df0, #6b9af2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    color: white;
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+/* flex snipets */
+.flex--row--center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+.flex--column--center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}

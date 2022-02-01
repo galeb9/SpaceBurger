@@ -148,21 +148,7 @@ DEPENDENCES
   =====
   */
   
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
-  }
-  body{
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
-    margin: 0;
-    min-height: 100vh;
-  }
   
-  header{
-    display: flex;
-    justify-content: center;
-  }
   .page__menu:nth-child(n+2){
     margin-top: 3rem;
   }
@@ -231,83 +217,3 @@ DEPENDENCES
     0.5px 0.5px    var(--shadow),
     0.25px 0.25px  var(--shadow);
   }
-/* hero section */
-main{
-    background-image: linear-gradient(to right top, #34225c, #423976, #515190, #606aaa, #7084c4, #758fd1, #7a9add, #7fa5ea, #7aa2ec, #75a0ee, #709df0, #6b9af2);
-}
-.container{
-    color: white;
-    width: 70%;
-    height: 100%;
-    margin: 0 auto;
-    /* border: 1px solid indigo; */
-
-}
-.hero{
-    width: 100%;
-    height: 93vh;
-    display: flex;
-}
-/* .stary-bg{
-    background: url(stary-bg.jpg);
-} */
-.flex--row--center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1rem;
-}
-.flex--column--center{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1rem;
-}
-.hero__item{
-    flex-basis: 50%;
-    flex-grow: 1;
-    height: 100%;
-    /* border: indigo 1px solid; */
-}
-img{
-    max-width: 100%;
-    height: auto;
-}
-.outer-window{
-    background: rgba(255, 255, 255, 0.671);
-    height: 500px;
-    width:480px;
-    border-radius: 50%;
-}
-.hero__item__img{
-    width: 90%;
-    border-radius: 50%;
-    border: white 1rem solid;
-}
-.hero__item:nth-of-type(1){
-    align-items: flex-start;
-}
-.hero__item__title{
-    font-size: 5.5rem;
-    letter-spacing: 4px;
-}
-.hero__item__title > span{
-    color: rgb(139, 230, 78);
-    text-shadow: 5px 5px 0px rgb(221, 58, 243);
-}
-.hero__item__p{
-    font-size: 1.5rem;
-}
-.hero__item__p__span{
-    font-size: 2rem;
-    font-weight: 700;
-    color: rgb(105, 214, 33);
-    text-shadow: 3px 3px 0px rgb(221, 58, 243);
-}
-.comrade{
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: rgba(243, 53, 53, 0.876);
-    text-shadow: 3px 3px 0px rgb(114, 16, 128);
-}
