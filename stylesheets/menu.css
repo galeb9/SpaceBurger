@@ -203,30 +203,7 @@ DEPENDENCES
       color: var(--uirLinkTextColor) !important;
       text-decoration: var(--uirLinkTextDecoration) !important;
   }
-  .logo{
-    width: 250px;
-    padding-left: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .logo__img1{
-    width: auto;
-    height: 50px;
-    transform: rotate(45deg);
-  }
-  .logo__img2{
-    width: auto;
-    height: 40px;
-  }
-  .logo__name{
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: 0 10px;
-    font-family: "Prisma", sans-serif;
-    color: rgb(105, 214, 33);
-
-  }
+  
   .text-shadow{
     text-shadow: 
     6px 6px        var(--shadow), 
