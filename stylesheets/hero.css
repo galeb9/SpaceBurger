@@ -20,6 +20,24 @@
     height: 500px;
     width:480px;
     border-radius: 50%;
+    transition: box-shadow .4s ease-in-out .1s;
+    /* img shadow */
+    box-shadow:
+        0.8px 1.4px 3.1px rgba(0, 0, 0, 0.019),
+        2.7px 4.6px 7px rgba(0, 0, 0, 0.028),
+        5.8px 9.7px 12.1px rgba(0, 0, 0, 0.035),
+        10.1px 16.9px 19.1px rgba(0, 0, 0, 0.042);
+}
+.outer-window:hover{
+    box-shadow:
+        0.8px 1.4px 3.1px rgba(0, 0, 0, 0.019),
+        2.7px 4.6px 7px rgba(0, 0, 0, 0.028),
+        5.8px 9.7px 12.1px rgba(0, 0, 0, 0.035),
+        10.1px 16.9px 19.1px rgba(0, 0, 0, 0.042),
+        15.9px 26.6px 29.3px rgba(0, 0, 0, 0.048),
+        23.5px 39.4px 45.5px rgba(0, 0, 0, 0.054),
+        33.7px 56.6px 75.1px rgba(0, 0, 0, 0.063),
+        50px 84px 149px rgba(0, 0, 0, 0.08);
 }
 .hero__item__img{
     width: 90%;

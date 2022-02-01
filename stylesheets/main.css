@@ -1,7 +1,9 @@
 @import "menu.css";
 @import "logo.css";
 @import "hero.css";
-
+:root{
+    --shadow: #8917a0;
+}
 main{
     background-image: linear-gradient(to right top, #34225c, #423976, #515190, #606aaa, #7084c4, #758fd1, #7a9add, #7fa5ea, #7aa2ec, #75a0ee, #709df0, #6b9af2);
 }
